@@ -18,7 +18,7 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 
 ---
 
-## React Overview
+## Getting Started
 - React is a JS library for building UIs.
 - Based on components: reusable pieces of UI.
 - Virtual DOM for faster updates.
