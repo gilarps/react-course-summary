@@ -1,7 +1,11 @@
 # React Udemy Course Summary
 
+React - The Complete Guide 2025 (incl. Next.js, Redux)
+Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!
+https://www.udemy.com/course/react-the-complete-guide-incl-redux
+
 ## Table of Contents
-1. [React Overview](#react-overview)
+1. [Getting Started](#getting-started)
 2. [JSX](#jsx)
 3. [Components](#components)
 4. [Props & State](#props--state)
