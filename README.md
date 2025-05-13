@@ -19,6 +19,19 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 ---
 
 ## Getting Started
-- React is a JS library for building UIs.
-- Based on components: reusable pieces of UI.
-- Virtual DOM for faster updates.
+>> What is React?
+**JavaScript library** for web and native *UI*
+>> Why not just JavaScript (vanilla)?
+- Cumbersome (complex, large, inefficient)
+- Error-prone potential (for complex code)
+- Huge pain
+>> Why use React?
+- Extremely **popular**
+- **Strong ecosystem** -> Rich libraries, tools, and community support (e.g., Redux, React Router, Next.js)
+- From building complex, interactive UI to **breeze**
+- **Declarative** UI programming -> Define the goal, not steps -> Describe what the UI should look like, and React handles updates efficiently
+- **Component-based** –> UIs are built from small, reusable pieces, making code easier to manage and scale
+- **Virtual DOM** –> React updates the UI quickly and efficiently by minimizing direct DOM manipulations
+- **One-way data flow** –> Predictable data flow makes debugging and understanding state changes easier
+- **Reusable logic** via hooks –> Logic like fetching data or handling state can be reused cleanly across components
+- **Cross-platform support** –> You can use **React Native** to build mobile apps using the same concepts
