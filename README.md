@@ -19,13 +19,13 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 ---
 
 ## Getting Started
->> What is React?
+### What is React?
 **JavaScript library** for web and native *UI*
->> Why not just JavaScript (vanilla)?
+### Why not just JavaScript (vanilla)?
 - Cumbersome (complex, large, inefficient)
 - Error-prone potential (for complex code)
 - Huge pain
->> Why use React?
+### Why use React?
 - Extremely **popular**
 - **Strong ecosystem** -> Rich libraries, tools, and community support (e.g., Redux, React Router, Next.js)
 - From building complex, interactive UI to **breeze**
