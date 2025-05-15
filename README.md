@@ -142,3 +142,10 @@ https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex
 - **Vanilla JS Projects Can’t Use JSX**
   - Without a build process, JSX won’t work in plain JavaScript projects.
 
+### "import" & "export"
+- Named Exports
+  - Export multiple items with specific names:
+    <pre> \`\`\`js // 
+    // util.js
+export const apiKey = "ABC123";
+export const abc = "Some Value"; \`\`\` </pre>
