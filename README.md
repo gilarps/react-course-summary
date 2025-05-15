@@ -2,9 +2,10 @@
 
 React - The Complete Guide 2025 (incl. Next.js, Redux)  
 Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!  
-https://www.udemy.com/course/react-the-complete-guide-incl-redux  
+https://www.udemy.com/course/react-the-complete-guide-incl-redux
 
 ## Table of Contents
+
 1. [Getting Started](#getting-started)
 2. [JavaScript Refresher](#javascript-refresher)
 3. [React Essentials - Components, JSX, Props, State & More](#components)
@@ -14,14 +15,17 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 ## Getting Started
 
 ### What Is React?
-**JavaScript library** for web and native *UI*
+
+**JavaScript library** for web and native _UI_
 
 ### Why Not Just JavaScript (Vanilla)?
+
 - Cumbersome (complex, large, inefficient)
 - Error-prone potential (for complex code)
 - Huge pain
 
 ### Why Use React?
+
 - Extremely **popular**
 - **Strong ecosystem** -> Rich libraries, tools, and community support (e.g., Redux, React Router, Next.js)
 - From building complex, interactive UI to **breeze**
@@ -33,19 +37,24 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 - **Cross-platform support** –> You can use **React Native** to build mobile apps using the same concepts
 
 ### Editing First React App
+
 Adding new tab (React vs JS) https://codesandbox.io/p/devbox/first-react-app-forked-kw5gjr?workspaceId=ws_MMuSc8CCLjTZ5cZf5rfU4B
 
 ### Course Resources
+
 https://github.com/academind/react-complete-guide-course-resources?tab=readme-ov-file
 
 ### About This Course
+
 **Modular Course**. Splitted into these parts:
+
 - **Getting Started**
 - **JavaScript Refresher** -> If needed
 - **React Essentials** -> Must learn
 - **Deep dive & advanced concepts** -> Can jump to other section that interesting for you
 
 ### Two Ways (Path) of Taking This Course
+
 - Standard Path -> **Recommended**
   - Complete the course by lecture and **section by section**
   - Learn **step by step**
@@ -55,10 +64,13 @@ https://github.com/academind/react-complete-guide-course-resources?tab=readme-ov
   - Great **refresher** after finishing the course
 
 ### Join Academind Community on Discord
+
 https://academind.com/community/
 
 ### Creating React Projects
+
 🧪 Two Ways to Set Up a React Project:
+
 - Quick Start with **CodeSandbox** (react.new):
   - Visit **react.new** to instantly create a new React project in your browser using CodeSandbox.
   - **No local installation needed** — ideal for beginners or if you can't install software (e.g., on a company computer).
@@ -75,12 +87,13 @@ https://academind.com/community/
     - Choose "React"
     - Install dependencies with: npm install
     - Start dev server with: npm run dev
-  - Example setup with Create React App:
-    - Run: **npx create-react-app project-name**
-> This setup provides a local development server that auto-updates the preview when you save changes.
+  - Example setup with Create React App: - Run: **npx create-react-app project-name**
+    > This setup provides a local development server that auto-updates the preview when you save changes.
 
 ### Why We Need Tools Like Vite or CodeSandbox for React
+
 You can't just use a plain HTML and JS file to write React code because:
+
 - React uses **JSX** – a **special syntax** that looks like HTML in JavaScript.
 - Browsers don't understand JSX, so the code **must be transformed** first.
 - Build tools like **Vite** are needed to:
@@ -92,7 +105,9 @@ You can't just use a plain HTML and JS file to write React code because:
   - Vite gives you **fast local development**.
 
 ## JavaScript Refresher
+
 ### Introduction
+
 - It's **optional**. you can skip it or return later if needed.
 - Recommended if:
   - You haven't used JavaScript for a while
@@ -104,9 +119,11 @@ You can't just use a plain HTML and JS file to write React code because:
   - **Syntax and rules essential** for writing React code.
 
 ### Starting Project
+
 https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex.html
 
 ### Adding JavaScript & How React Projects Differ
+
 - JavaScript runs in many environments:
   - Originally built for the browser.
   - Now also runs outside the browser (e.g., with Node.js, Deno, React Native).
@@ -125,6 +142,7 @@ https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex
   - A build process (like Vite or Webpack) automatically injects necessary scripts into the HTML.
 
 ### React Projects Use a Build Process
+
 - **No Script Tags in HTML**
   - React projects don’t include <script> tags manually in index.html.
 - **Build Process Handles Injection**
@@ -143,9 +161,11 @@ https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex
   - Without a build process, JSX won’t work in plain JavaScript projects.
 
 ### "import" & "export"
+
 - Named Exports
   - Export multiple items with specific names:
-    <pre> \`\`\`js // 
+    ```js
     // util.js
-export const apiKey = "ABC123";
-export const abc = "Some Value"; \`\`\` </pre>
+    export const apiKey = "ABC123";
+    export const abc = "Some Value";
+    ```
