@@ -6,15 +6,8 @@ https://www.udemy.com/course/react-the-complete-guide-incl-redux
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
-2. [JSX](#jsx)
-3. [Components](#components)
-4. [Props & State](#props--state)
-5. [Event Handling](#event-handling)
-6. [React Hooks](#react-hooks)
-7. [Lifecycle Methods](#lifecycle-methods)
-8. [React Router](#react-router)
-9. [Context API](#context-api)
-10. [Useful Tips](#useful-tips)
+2. [JavaScript Refresher](#javascript-refresher)
+3. [React Essentials - Components, JSX, Props, State & More](#components)
 
 ---
 
@@ -97,3 +90,55 @@ You can't just use a plain HTML and JS file to write React code because:
   - They make **setup easy**.
   - CodeSandbox needs **no installation**.
   - Vite gives you **fast local development**.
+
+## JavaScript Refresher
+### Introduction
+- It's **optional**. you can skip it or return later if needed.
+- Recommended if:
+  - You haven't used JavaScript for a while
+  - You have limited JavaScript experience.
+- Not suitable for complete JavaScript beginners — if you’ve never used JavaScript before, learn the basics first.
+- What this section covers:
+  - **Core JavaScript concepts** needed for React.
+  - **Modern JavaScript features** (like let, const, arrow functions, etc.).
+  - **Syntax and rules essential** for writing React code.
+
+### Starting Project
+https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex.html
+
+### Adding JavaScript & How React Projects Differ
+- JavaScript runs in many environments:
+  - Originally built for the browser.
+  - Now also runs outside the browser (e.g., with Node.js, Deno, React Native).
+- How JavaScript is added to a website:
+  - With the <script> tag in HTML.
+    - Option 1: Write JavaScript inline between <script> tags (not recommended for large projects).
+    - Option 2: Link to external .js files (recommended for real-world use).
+- Script tag options:
+  - defer: delays script execution until HTML is fully parsed.
+  - type="module": treats the file as an ES module, enabling use of import/export syntax between files.
+- JavaScript modules:
+  - Allow splitting code across multiple files.
+  - Useful for reusability and maintainability.
+- In React projects:
+  - You don’t manually add <script> tags.
+  - A build process (like Vite or Webpack) automatically injects necessary scripts into the HTML.
+
+### React Projects Use a Build Process
+- **No Script Tags in HTML**
+  - React projects don’t include <script> tags manually in index.html.
+- **Build Process Handles Injection**
+  - Tools like **React Scripts** automatically inject script tags during build or development.
+- **JSX Requires Transformation**
+  - JSX (HTML-like syntax in JavaScript) isn’t valid JavaScript and must be compiled.
+- **Build Process Transforms JSX**
+  - The build tool converts JSX into browser-compatible JavaScript.
+- **Code Optimization**
+  - The build also minifies and optimizes the code for better performance.
+- **Development Server**
+  - A dev server (like in CodeSandbox or Create React App) watches your code, builds it, and serves it with injected scripts.
+- **Node.js is Required**
+  - Node.js powers these tools and is needed to run and build React projects locally.
+- **Vanilla JS Projects Can’t Use JSX**
+  - Without a build process, JSX won’t work in plain JavaScript projects.
+
