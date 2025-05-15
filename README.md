@@ -161,11 +161,40 @@ https://codesandbox.io/p/sandbox/javascript-refresher-start-rytt3j?file=%2Findex
   - Without a build process, JSX won’t work in plain JavaScript projects.
 
 ### "import" & "export"
-
 - Named Exports
-  - Export multiple items with specific names:
-    ```js
-    // util.js
-    export const apiKey = "ABC123";
-    export const abc = "Some Value";
-    ```
+- Default Exports
+  - Export a single default value (no name required)
+  - Import it with any name (no curly braces needed)
+- Mixing Default and Named Exports
+- Import All As Object
+  - Use *** as** to import everything as a single object
+- Aliases with as
+  - Rename imported items
+
+### Revisiting Variables & Values
+- Variables (**let**) store **reusable** values.
+- Constants (**const**) store values that **can’t be reassigned**.
+- Use **camelCase** for naming, avoid special characters.
+- Prefer const for values that shouldn’t change—it's clearer and safer.
+- JavaScript apps revolve around handling data like **strings, numbers, booleans, and more**.
+
+### Revisiting Operators
+- **Math operators**: +, -, *, /.
+- + can also **concatenate strings** (e.g., "Hello" + "World").
+- **Comparison operators** like ===, >, <, >=, <= return booleans (true/false).
+- These are often used with **if** statements to run code conditionally.
+- Operators and conditionals are essential and used frequently in JavaScript and React apps.
+
+### Revisiting Functions & Parameters
+- Functions are **reusable blocks of code** in JavaScript.
+- Defined using either the **function keyword** or **arrow function** syntax.
+- Functions are **not executed immediately** — only when called/invoked.
+- Can be called **multiple times**.
+- Parameters allow functions to accept input values.
+- Parameters make functions flexible and reusable.
+- You can assign default values to parameters.
+- Functions can return values using the return keyword.
+- Return values can be stored in variables/constants for reuse.
+- Naming should clearly describe what the function does.
+- Functions are essential in JavaScript and are a core concept in React, where components are often functions.
+
